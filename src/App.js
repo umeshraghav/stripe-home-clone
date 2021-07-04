@@ -1,13 +1,19 @@
- 
-import './App.css';
-
+import React from 'react'
+import './App.css'
+import Navbar from './Navbar'
+import Hero from './Hero'
+import Sidebar from './Sidebar'
+import Submenu from './Submenu'
 function App() {
- 
   return (
-    <div>
-          <h3>Stripe Menu</h3>
-    </div>
-  );
+    <>
+      <Navbar/>
+      <Sidebar/>
+      <Hero/>
+     
+      <Submenu/>
+    </>
+  )
 }
 
-export default App;
+export default App
